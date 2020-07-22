@@ -30,7 +30,8 @@
 }
 
 body{
-  font-family: "montserrat",sans-serif;
+  <!-- font-family: "montserrat",sans-serif; -->
+  font-family:"Times New Roman",Times,serif; 
 }
 
 
@@ -47,6 +48,7 @@ body{
   font-size: 20px;
   padding-bottom: 10px;
   margin-top: 40px;
+  font-family:"Times New Roman",Times,serif; 
 }
 
 
@@ -79,7 +81,7 @@ body{
 .service i{
   color: #3498db;
   font-size: 34px;
-  margin-bottom: 30px;
+  margin-bottom: 30px; 
 }
 
 .service h2{
@@ -87,6 +89,7 @@ body{
   text-transform: uppercase;
   font-weight: 500;
   margin:0;
+  font-family:"Times New Roman",Times,serif; 
 }
 
 
@@ -94,7 +97,7 @@ body{
 color: gray;
 font-size: 15px;
 font-weight: 500;
-
+font-family:"Times New Roman",Times,serif; 
 }
 
 
@@ -117,7 +120,7 @@ font-weight: 500;
 
 .heading
 {
- font-family : cambria;
+ font-family:"Times New Roman",Times,serif; 
  font-size : 30px;
  text-align : center;
  font-weight : bold;
@@ -126,7 +129,7 @@ font-weight: 500;
 }
 .subheading
 {
- font-family : cambria;
+ font-family:"Times New Roman",Times,serif; 
  font-size : 25px;
  font-weight : bold;
  color : #ff1744;
@@ -250,7 +253,7 @@ font-weight: 500;
 
 .container2 .heading{
   position:aboslute;
-  font-family : cambria;
+ font-family:"Times New Roman",Times,serif; 
  font-size : 30px;
  text-align : center;
  font-weight : bold;
@@ -335,9 +338,9 @@ footer a:hover {
  
 
 .my-nav{
-  background : rgba(0,0,0,0.8);
+  <!-- background : rgba(0,0,0,0.8); -->
+  background-color:white;
 }
-
 
  .landing{
     height: 100vh;
@@ -399,6 +402,9 @@ footer a:hover {
   .img-area img{
     display:inline-block;
   }
+  .bg-light{
+  background-color: white !important;
+}
 }
 
 
@@ -473,14 +479,16 @@ height: 100vh;
 }
 
 .navbar-brand {
-  color: #fff !important;
+  color: white !important;
   font-size: 35px;
   font-weight: bold;
+  font-family:"Times New Roman",Times,serif; 
 }
 
 ul.navbar-nav li a.nav-link{
-  color: #ffffff !important;
+  color: white !important;
   font-weight: bold;
+  font-family:"Times New Roman",Times,serif; 
 }
 
 ul.navbar-nav li a.nav-link:hover{
@@ -512,37 +520,59 @@ ul.navbar-nav li.active a.nav-link{
   color: #2d94fc !important;
 }
 
+.fontstyle{
+  font-family:"Times New Roman",Times,serif;
+  font-size:20px;
+}
+
+@media (max-width: 768px){
+  .bg-light{
+  background-color: white !important;
+}
+
+.navbar-brand {
+  color: black !important;
+  font-weight: bold;
+  font-family:"Times New Roman",Times,serif; 
+}
+
+ul.navbar-nav li a.nav-link{
+  color: black !important;
+  font-weight: bold;
+  font-family:"Times New Roman",Times,serif; 
+}
+}0
 
   </style>
 </head>
 <body>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
-  <a class="navbar-brand" href="#">Navbar</a>
+  <a class="navbar-brand" href="#">PSI CYCLES</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
     <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      <li class="nav-item">
+        <a class="nav-link" href="#home">HOME <span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">About us</a>
+        <a class="nav-link" href="#about">ABOUT US</a>
       </li>
 
        <li class="nav-item">
-        <a class="nav-link" href="#">Contact us</a>
+        <a class="nav-link" href="#services">OUR SERVICES</a>
       </li>
 
 
        <li class="nav-item">
-        <a class="nav-link" href="#">OurServices</a>
+        <a class="nav-link" href="#team">OUR TEAM</a>
       </li>
 
        <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#contact">CONTACT US</a>
       </li>
       
       
@@ -563,22 +593,25 @@ ul.navbar-nav li.active a.nav-link{
 
    <!--  <div class="heading" id="home">HOME</div>
     <div class="subheading">Welcome to out website</div> -->
+	<!-- <br><br><br> -->
+	
     <div class="landing" id="home" >
      
       <div class="col-12 col-lg-6 ml-auto mr-auto mainheading" style="text-align: center;">
-      <h1 class="mainheading" style="font-size: 40px;font-family: arial">I don’t have a bucket list but my bikeit list is a mile long.</h1>
+      <h1 class="mainheading" style="font-size: 40px;font-family:'Times New Roman',Times,serif">I don’t have a bucket list but my bikeit list is a mile long.</h1>
       </div>
     </div>
-    <br>
-
-    <h2 align="center">ABOUT</h2><br>
+  
+  <div id="about">
+ <br><br><br>
+    <h2 align="center" style="font-size: 40px;font-family:'Times New Roman',Times,serif">ABOUT</h2><br>
     
     <div class="jumbotron" id="about" style="text-align: center;">
 
       <div class="row jumbotron">
 
         <div class="col-8">
-      <P>Bicycle-sharing systems have spurt up all over the globe especially since smartphones became commonplace. In India, several such services are operating in various communities and Ari is proud to join the ranks. Ari inherits some aspects from one of the most successful models, NammaCycle, working in IISC Bangalore. 4th Gen cycle-sharing is a micro-mobility system that involves the dynamic distributed use of cycles that can be picked and dropped off at any location within a designated area.</P></div>
+      <P class="fontstyle">Bicycle-sharing systems have spurt up all over the globe especially since smartphones became commonplace. In India, several such services are operating in various communities and Ari is proud to join the ranks. Ari inherits some aspects from one of the most successful models, NammaCycle, working in IISC Bangalore. 4th Gen cycle-sharing is a micro-mobility system that involves the dynamic distributed use of cycles that can be picked and dropped off at any location within a designated area.</P></div>
 
 <div class="col-4">
   
@@ -596,7 +629,7 @@ ul.navbar-nav li.active a.nav-link{
           <img src="cycle1.jpg" class="img-responsive img-fluid">
         </div>
 <div class="col-8">
-       <P>Bicycle-sharing systems have spurt up all over the globe especially since smartphones became commonplace. In India, several such services are operating in various communities and Ari is proud to join the ranks. Ari inherits some aspects from one of the most successful models, NammaCycle, working in IISC Bangalore. 4th Gen cycle-sharing is a micro-mobility system that involves the dynamic distributed use of cycles that can be picked and dropped off at any location within a designated area.</P>
+       <P class="fontstyle">Bicycle-sharing systems have spurt up all over the globe especially since smartphones became commonplace. In India, several such services are operating in various communities and Ari is proud to join the ranks. Ari inherits some aspects from one of the most successful models, NammaCycle, working in IISC Bangalore. 4th Gen cycle-sharing is a micro-mobility system that involves the dynamic distributed use of cycles that can be picked and dropped off at any location within a designated area.</P>
 
        </div>
 
@@ -604,10 +637,12 @@ ul.navbar-nav li.active a.nav-link{
 
 </div>
     </div>
+	</div>
+  <div id="services">
+  <br><br><br>
+    <h2 align="center" style="font-size: 40px;font-family:'Times New Roman',Times,serif">OUR SERVICES</h2><br>
 
-    <h2 align="center">OUR Services</h2><br>
-
-    <div class="services" id="team">
+    <div class="services" >
 <div class="cen">
   
 
@@ -652,13 +687,13 @@ ul.navbar-nav li.active a.nav-link{
     <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
     </p>
      </div>
-
+     </div>
   </div>
 </div>
 
-
-    <h2 align="center">OUR TEAM</h2><br>
-
+<div id="team">
+ <br><br><br>
+    <h2 align="center" style="font-size: 40px;font-family:'Times New Roman',Times,serif">OUR TEAM</h2><br>
     <div class="team-area">
       <div class="container">
         
@@ -695,7 +730,7 @@ ul.navbar-nav li.active a.nav-link{
 
 
           </div>
-          
+         
 
 
 
@@ -732,7 +767,6 @@ ul.navbar-nav li.active a.nav-link{
 
 
           </div>
-
 
 
 <div class="col-md-4 col-sm-6 col-xs-12">
@@ -777,8 +811,10 @@ ul.navbar-nav li.active a.nav-link{
 
 
 </div>
-   
- <h2 style="text-align:center">Contact Us:</h2>
+</div>
+   <div id="contact">
+ <br><br><br>
+ <h2 style="text-align:center;font-size: 40px;font-family:'Times New Roman',Times,serif">CONTACT US</h2>
         <hr>
   <div class="jumbotron" style="background-color: white">
  
@@ -808,7 +844,6 @@ ul.navbar-nav li.active a.nav-link{
     <label for="inputAddress2" >Phone Number</label>
     <input type="text" class="form-control" id="phonenumber">
   </div>
-
 
 
 
@@ -847,7 +882,7 @@ ul.navbar-nav li.active a.nav-link{
   </div>
   
 </div>
-
+</div>
 
 
 
